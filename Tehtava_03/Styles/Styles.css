@@ -1,0 +1,12 @@
+body
+{
+	background: lightblue;
+}
+.label, .button
+{
+	margin: 5px;
+	padding: 0;
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+}
