@@ -2,13 +2,11 @@ using System;
 
 public partial class Tehtava : System.Web.UI.Page
 {
-    protected int current_year;
+    private static DateTime selected_date = DateTime.Today;
 
     protected void Page_Load(object sender, EventArgs e)
 	{
         lblCurrentDay.Text = Calendar.TodaysDate.ToShortDateString();
-
-        current_year = Calendar.TodaysDate.Year;
     }
 
     protected void Calendar_SelectionChanged(object sender, EventArgs e)
@@ -27,15 +25,15 @@ public partial class Tehtava : System.Web.UI.Page
 
     protected void btnNextYear_Click(object sender, EventArgs e)
     {
-        this.current_year += 1;
+        selected_date = selected_date.AddYears(+1);
 
-        Calendar.VisibleDate = new DateTime(current_year, Calendar.TodaysDate.Month, Calendar.TodaysDate.Day);
+        Calendar.VisibleDate = selected_date;
     }
 
     protected void btnPrevYear_Click(object sender, EventArgs e)
     {
-        this.current_year -= 1;
+        selected_date = selected_date.AddYears(-1);
 
-        Calendar.VisibleDate = new DateTime(current_year, Calendar.TodaysDate.Month, Calendar.TodaysDate.Day);
+        Calendar.VisibleDate = selected_date;
     }
 }

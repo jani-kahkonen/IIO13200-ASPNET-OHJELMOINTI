@@ -2,11 +2,21 @@ body
 {
 	background: lightblue;
 }
+
+br
+{
+    clear: both;
+}
+
 .label, .button
 {
-	margin: 5px;
-	padding: 0;
-	display: inline-block;
 	width: 100px;
 	height: 20px;
+    float: left;
+    border-width: 0;
+}
+
+.calendar
+{
+    width: 200px;
 }
