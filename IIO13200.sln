@@ -130,6 +130,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tehtava_05", "\\storage\hom
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tehtava_09", "\\storage\homes\H9575\Dox\Documents\Visual Studio 2015\WebSites\Tehtava_09\", "{EFBD59D3-F30C-47AB-B5D0-64460F037710}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62795"
+		Debug.AspNetCompiler.PhysicalPath = "\\storage\homes\H9575\Dox\Documents\Visual Studio 2015\WebSites\Tehtava_09\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62795\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62795"
+		Release.AspNetCompiler.PhysicalPath = "\\storage\homes\H9575\Dox\Documents\Visual Studio 2015\WebSites\Tehtava_09\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62795\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62795"
+		SlnRelativePath = "\\storage\homes\H9575\Dox\Documents\Visual Studio 2015\WebSites\Tehtava_09\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +182,10 @@ Global
 		{311B17F5-2EB5-410D-847A-6DF7160888EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{311B17F5-2EB5-410D-847A-6DF7160888EF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{311B17F5-2EB5-410D-847A-6DF7160888EF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EFBD59D3-F30C-47AB-B5D0-64460F037710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBD59D3-F30C-47AB-B5D0-64460F037710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBD59D3-F30C-47AB-B5D0-64460F037710}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBD59D3-F30C-47AB-B5D0-64460F037710}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
