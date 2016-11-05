@@ -1,0 +1,17 @@
+body
+{
+	background: lightgreen;
+}
+.label, .textbox, .button, .dropdownlist
+{
+	padding: 0;
+    margin: 5px;
+	display: inline-block;
+	width: 120px;
+	height: 20px;
+}
+.datagrid
+{
+    padding: 0;
+    margin: 5px;
+}
