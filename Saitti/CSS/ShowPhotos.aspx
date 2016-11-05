@@ -7,7 +7,7 @@
     <title>My Photo Gallery</title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form" runat="server">
     <div>
     <asp:Label ID="myLabel" runat="server" />
     <asp:Repeater ID="Repeater1" runat="server" >
