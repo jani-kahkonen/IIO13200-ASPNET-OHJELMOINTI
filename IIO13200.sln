@@ -129,6 +129,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tehtava_05", "Tehtava_05\",
 		SlnRelativePath = "Tehtava_05\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tehtava_06", "Tehtava_06\", "{BA24505F-1C96-429C-8A4D-C0CAFF919292}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58711"
+		Debug.AspNetCompiler.PhysicalPath = "Tehtava_06\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58711\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58711"
+		Release.AspNetCompiler.PhysicalPath = "Tehtava_06\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58711\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58711"
+		SlnRelativePath = "Tehtava_06\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +180,10 @@ Global
 		{01163F37-4350-47E1-A123-7B3D9CDBF7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01163F37-4350-47E1-A123-7B3D9CDBF7CF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{01163F37-4350-47E1-A123-7B3D9CDBF7CF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BA24505F-1C96-429C-8A4D-C0CAFF919292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA24505F-1C96-429C-8A4D-C0CAFF919292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA24505F-1C96-429C-8A4D-C0CAFF919292}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA24505F-1C96-429C-8A4D-C0CAFF919292}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
